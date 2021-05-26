@@ -1,5 +1,6 @@
 '''
 Piecewise Cubic Hermite Interpolating Polynomial script
+
 Sandy Herho <herho@umd.edu>
 2021/05/24
 '''

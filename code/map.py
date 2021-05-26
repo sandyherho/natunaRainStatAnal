@@ -1,5 +1,6 @@
 '''
 PyGMT Mapping script
+
 Sandy Herho <herho@umd.edu>
 2021/05/24
 '''
