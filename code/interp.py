@@ -17,9 +17,9 @@ df = pd.read_csv('https://raw.githubusercontent.com/sandyherho/natunaRainStatAna
 pr = df['pr'].interpolate(method='pchip')
 t = pd.to_datetime(df['date'], dayfirst=True)
 
-plt.plot(t, pr, '#05b3ac');
-plt.ylabel('precipitatin (mm/day)');
-plt.xlabel('time (day)');
+plt.plot(t, pr, '#1f91a1');
+plt.ylabel('precipitation (mm/day)');
+plt.xlabel('time');
 plt.ylim(0, 200);
 plt.tight_layout();
-plt.savefig('fig2.png')
+plt.savefig('./figs/fig2.png')
