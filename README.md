@@ -32,5 +32,4 @@ We run the code under the following computational environments:
 * [matplotlib v2.2.5](https://matplotlib.org/)
 * [numpy v1.16.6](https://numpy.org/)
 * [pandas v0.24.2](https://pandas.pydata.org/)
-* [pycwt v0.3.0a22](https://pycwt.readthedocs.io/)
 * [pygmt v0.2.1](https://www.pygmt.org/)
