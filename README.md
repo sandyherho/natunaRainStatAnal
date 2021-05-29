@@ -1,4 +1,4 @@
-# Statistical learning analysis of rain gauge data over the Natuna Islands
+# On the statistical learning analysis of rain gauge data over the Natuna Islands
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4844092.svg)](https://doi.org/10.5281/zenodo.4844092)
 [![GitHub watchers](https://img.shields.io/github/watchers/Naereen/StrapDown.js.svg?style=social&label=Watch&maxAge=2592000)](https://github.com/sandyherho/natunaRainStatAnal/watchers/)
