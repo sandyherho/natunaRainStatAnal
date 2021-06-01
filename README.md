@@ -1,10 +1,10 @@
-# Statistical learning analysis of rain gauge data over the Natuna Islands
+# On the statistical learning analysis of rain gauge data over the Natuna Islands
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 [![GitHub watchers](https://img.shields.io/github/watchers/Naereen/StrapDown.js.svg?style=social&label=Watch&maxAge=2592000)](https://github.com/sandyherho/natunaRainStatAnal/watchers/)
 [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
-This GitHub repository contains code used for **Statistical learning analysis of rain gauge data over the Natuna Islands** created by [Sandy H. S. Herho](https://www.geol.umd.edu/sandyherho) at [Paleoclimate CoLaboratory](https://www.geol.umd.edu/facilities/sil/), University of Maryland College Park and [Dasapta E. Irawan](https://www.itb.ac.id/staf/profil/dasapta-erwin-irawan) at [Applied Geology Research Group](https://fitb.itb.ac.id/kk-geologi-terapan/), Bandung Institute of Technology.
+This GitHub repository contains code used for **On the statistical learning analysis of rain gauge data over the Natuna Islands** created by [Sandy H. S. Herho](https://www.geol.umd.edu/sandyherho) at [Paleoclimate CoLaboratory](https://www.geol.umd.edu/facilities/sil/), University of Maryland College Park and [Dasapta E. Irawan](https://www.itb.ac.id/staf/profil/dasapta-erwin-irawan) at [Applied Geology Research Group](https://fitb.itb.ac.id/kk-geologi-terapan/), Bandung Institute of Technology.
 
 ### License
 
@@ -16,8 +16,8 @@ If you find this code useful in your study, please, consider citing our paper:
 
 `
 @article{herho21,
-         author  = {S. H. S. Herho and D. E. Irawan},
-         title   = {Statistical learning analysis of rain gauge data over the Natuna Islands},
+         author  = {S. H. S. Herho and F. R. Fajary and D. E. Irawan},
+         title   = {On the statistical learning analysis of rain gauge data over the Natuna Islands},
          journal = {xxxxxx},
          year    = {2021}}
 `
@@ -28,8 +28,11 @@ We run the code under the following computational environments:
 1. [MATLAB R2020a](https://www.mathworks.com/products/matlab.html) (Professional License)
 
 2. [Python 3.8.5](https://www.python.org/)
-* [fbprophet v0.7.1](https://facebook.github.io/prophet/)
 * [matplotlib v2.2.5](https://matplotlib.org/)
 * [numpy v1.16.6](https://numpy.org/)
 * [pandas v0.24.2](https://pandas.pydata.org/)
+* [pycaret v2.1.0](https://pycaret.org/)
 * [pygmt v0.2.1](https://www.pygmt.org/)
+
+3. [R 3.5.2](https://www.r-project.org/)
+* [bsts v0.9.5]() 

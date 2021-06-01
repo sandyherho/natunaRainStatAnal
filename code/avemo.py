@@ -4,7 +4,6 @@ Monthly average precipitation script
 Sandy Herho <herho@umd.edu>
 2021/05/28
 '''
-
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -14,6 +13,7 @@ url = 'https://raw.githubusercontent.com/sandyherho/natunaRainStatAnal/main/data
 data = pd.read_csv(url, index_col='date', parse_dates=True)
 
 df = data.resample('MS').sum()
+df.to_csv('../data/avemonth.csv')
 
 fig, ax = plt.subplots(figsize=(20, 8))
 df.groupby(df.index.month)["precipitation"].mean().plot(kind='bar', 
