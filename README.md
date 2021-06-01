@@ -4,7 +4,7 @@
 [![GitHub watchers](https://img.shields.io/github/watchers/Naereen/StrapDown.js.svg?style=social&label=Watch&maxAge=2592000)](https://github.com/sandyherho/natunaRainStatAnal/watchers/)
 [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
-This GitHub repository contains code used for **On the statistical learning analysis of rain gauge data over the Natuna Islands** created by [Sandy H. S. Herho](https://www.geol.umd.edu/sandyherho) at [Paleoclimate CoLaboratory](https://www.geol.umd.edu/facilities/sil/), University of Maryland College Park and [Dasapta E. Irawan](https://www.itb.ac.id/staf/profil/dasapta-erwin-irawan) at [Applied Geology Research Group](https://fitb.itb.ac.id/kk-geologi-terapan/), Bandung Institute of Technology.
+This GitHub repository contains code used for **On the statistical learning analysis of rain gauge data over the Natuna Islands** created by [Sandy H. S. Herho](https://www.geol.umd.edu/sandyherho) at [Paleoclimate CoLaboratory](https://www.geol.umd.edu/facilities/sil/), University of Maryland College Park, [Faiz R. Fajary](https://www.itb.ac.id/staf/profil/faiz-rohman-fajary) at [Atmospheric Science Research Group](https://english.fitb.itb.ac.id/kk-sains-atmosfer/), Bandung Institute of Technology and [Dasapta E. Irawan](https://www.itb.ac.id/staf/profil/dasapta-erwin-irawan) at [Applied Geology Research Group](https://fitb.itb.ac.id/kk-geologi-terapan/), Bandung Institute of Technology.
 
 ### License
 
@@ -35,4 +35,5 @@ We run the code under the following computational environments:
 * [pygmt v0.2.1](https://www.pygmt.org/)
 
 3. [R 3.5.2](https://www.r-project.org/)
-* [bsts v0.9.5]() 
+* [bsts v0.9.5](https://cran.r-project.org/web/packages/bsts/index.html)
+* [readr v1.4.0](https://cran.r-project.org/web/packages/readr/index.html) 
