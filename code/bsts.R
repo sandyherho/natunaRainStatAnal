@@ -1,12 +1,15 @@
+
+# Bayesian structural time-series script
+
+# Sandy H.S. Herho <herho@umd.edu>
+# 2021/06/02
+
 library(readr)
 library(bsts)
 
 df <- read_csv("../data/avemonth.csv")
 pr <- ts(df$precipitation, start = c(2013,01,01),
          end = c(2020,12,01), frequency = 12)
-
-plot(pr, main = 'Daily Precipitation of Natuna Islands',
-     xlab = 'time', ylab = 'precipitation (mm/day)')
 
 # local level model
 ll_ss <- list()
@@ -32,20 +35,17 @@ llt_pred <- predict(llt_fit, horizon = 3)
 # local linear trend with seasonality
 lts_ss <- list()
 lts_ss <- AddLocalLinearTrend(lts_ss, y = pr)
-lts_ss <- AddSeasonal(lts_ss, pr, nseasons = 365)
+lts_ss <- AddSeasonal(lts_ss, pr, nseasons = 12)
 lts_fit <- bsts(pr, state.specification = lts_ss,
                 niter = 1e3)
 
-plot(lts_fit, 'components',
-     xlab='time index',
-     ylab='precipitation (mm/day)')
-
-lts_pred <- predict(lts_fit, horizon = 30)
+lts_pred <- predict(lts_fit, horizon = 12)
 plot(lts_pred, plot.original = 90,
      xlab='time index',
-     ylab='precipitation (mm/day)')
+     ylab='precipitation (mm/month)')
 
 CompareBstsModels(lwd = 4, model.list = list(
   level = ll_fit, trend = llt_fit, season = lts_fit),
   colors = c("forestgreen", "firebrick", "blue4"),
   xlab='time index')
+

@@ -4,7 +4,7 @@
 [![GitHub watchers](https://img.shields.io/github/watchers/Naereen/StrapDown.js.svg?style=social&label=Watch&maxAge=2592000)](https://github.com/sandyherho/natunaRainStatAnal/watchers/)
 [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
-This GitHub repository contains code used for **On the statistical learning analysis of rain gauge data over the Natuna Islands** created by [Sandy H. S. Herho](https://www.geol.umd.edu/sandyherho) at [Paleoclimate CoLaboratory](https://www.geol.umd.edu/facilities/sil/), University of Maryland College Park, [Faiz R. Fajary](https://www.itb.ac.id/staf/profil/faiz-rohman-fajary) at [Atmospheric Science Research Group](https://english.fitb.itb.ac.id/kk-sains-atmosfer/), Bandung Institute of Technology and [Dasapta E. Irawan](https://www.itb.ac.id/staf/profil/dasapta-erwin-irawan) at [Applied Geology Research Group](https://fitb.itb.ac.id/kk-geologi-terapan/), Bandung Institute of Technology.
+This GitHub repository contains code used for **On the statistical learning analysis of rain gauge data over the Natuna Islands** created by [Sandy H. S. Herho](https://www.geol.umd.edu/sandyherho) at [Paleoclimate CoLaboratory](https://www.geol.umd.edu/facilities/sil/), University of Maryland College Park, [Faiz R. Fajary](https://www.itb.ac.id/staf/profil/faiz-rohman-fajary) at [Atmospheric Science Research Group](https://english.fitb.itb.ac.id/kk-sains-atmosfer/), Bandung Institute of Technology, and [Dasapta E. Irawan](https://www.itb.ac.id/staf/profil/dasapta-erwin-irawan) at [Applied Geology Research Group](https://fitb.itb.ac.id/kk-geologi-terapan/), Bandung Institute of Technology.
 
 ### License
 
